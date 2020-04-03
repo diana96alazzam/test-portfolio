@@ -1482,8 +1482,8 @@
     -webkit-justify-content: space-between;
     -ms-justify-content: space-between;
     justify-content: space-between;
-    background: #2c2c2c url("images/overlay.png");
-    box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
+    background: #062f2f url("images/overlay.png");
+    box-shadow: inset -0.25em 0 0.25em 0 rgba(10, 68, 65, 0.1);
     color: #fff;
     height: 100%;
     left: 0;
@@ -1519,7 +1519,7 @@
     }
 
         #header .icons a {
-            color: #41484c;
+            color: #a5a5a5;
             -moz-transition: color 0.35s ease-in-out;
             -webkit-transition: color 0.35s ease-in-out;
             -ms-transition: color 0.35s ease-in-out;
@@ -1549,9 +1549,11 @@
         position: relative;
         display: block;
         font-size: 0.6em;
-        color: #7097bb;
+        color: #c9b6a7;
         line-height: 1.25em;
         margin: 0.5em 0 0 0;
+        font-family: 'Rajdhani', sans-serif;
+
     }
 
     #logo .image {
@@ -1592,7 +1594,7 @@
                 #nav ul li a span:before {
                     position: absolute;
                     left: 0;
-                    color: #41484c;
+                    color: #b8b8b8;
                     text-align: center;
                     width: 1.25em;
                     line-height: 1.75em;
@@ -1605,7 +1607,7 @@
             }
 
                 #nav ul li a.active span:before {
-                    color: #7097bb;
+                    color: #8d725d;
                 }
 
 /* Footer */
