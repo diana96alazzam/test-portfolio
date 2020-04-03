@@ -55,18 +55,36 @@ section, article {
     section > :last-child,
     section > .container, section:last-child, article > :last-child,
     article > .container, article:last-child {
-        margin-bottom: 0;
+		margin-bottom: 0;
     }
 
     .row > section, .row > article {
         margin-bottom: 0;
 	}
+
+	#aboutCont  {
+		padding: 20vh 10vh;
+	}	
 	
 	
 /* Main */
 
 #main {
     margin-left: 375px;
+}
+
+.alt {
+	padding-top: 90px;
+
+}
+
+h2.alt {
+	text-shadow: 4px 3px 4px rgba(56, 70, 107, 0.438);
+
+}
+
+#logo img {
+	border-radius: 20%;
 }
 
     #main > section {
@@ -82,7 +100,6 @@ section, article {
             color: rgba(34, 34, 34, 0.87);
             color: rgba(34, 34, 34, 0.87);
 			font-family: 'Rajdhani', sans-serif;
-			f
 	
 
         }
@@ -113,21 +130,25 @@ section, article {
         }
 
         #main > section.one {
-            background-color: #81918E;
-            background-image: url("../../images/pexels-photo-911738.jpeg");
+            background-color: rgb(145, 129, 141);
+			background-image: url("../../images/pexels-photo-911738.jpeg");
+			height: 100vh;
 
         }
 
         #main > section.two {
-            background-color: #6e94b81f;
+			background-image: url('../../images/lightB.jpg');
+			background-repeat: no-repeat;
+			background-size: cover;
         }
 
         #main > section.three {
-            background-color: #ecf1f1;
+			background-image: url('../../images/lightB.jpg');
+			height: 100vh;
         }
 
         #main > section.four {
-            background-color: #e8edec;
+			background-color: #e8edec;
         }
 
 
@@ -143,7 +164,7 @@ section, article {
 
 	body {
 		background: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Rajdhani', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -187,6 +208,7 @@ section, article {
 	h2 {
 		font-size: 2em;
 		letter-spacing: -1px;
+		text-shadow: 4px 3px 4px rgba(56, 70, 107, 0.157);
 	}
 
 		h2.alt {
@@ -207,6 +229,7 @@ section, article {
 
 		header > p {
 			margin: 1em 0 0 0;
+
 		}
 
 	footer {
